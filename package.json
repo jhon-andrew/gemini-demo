@@ -1,0 +1,38 @@
+{
+  "name": "gemini-demo",
+  "author": {
+    "name": "Jhon Andrew Baes",
+    "email": "anecbook@gmail.com",
+    "url": "https://github.com/jhon-andrew/gemini-demo"
+  },
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": "20.11.1",
+    "npm": "10.2.4"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.16.0",
+    "element-plus": "^2.7.7",
+    "markdown-it": "^14.1.0",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@iconify-json/ri": "^1.1.21",
+    "@types/markdown-it": "^14.1.2",
+    "@types/node": "^20.14.12",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "unplugin-auto-import": "^0.18.2",
+    "unplugin-icons": "^0.19.0",
+    "unplugin-vue-components": "^0.27.3",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
